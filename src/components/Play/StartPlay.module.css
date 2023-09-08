@@ -1,0 +1,45 @@
+.topSection{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin:24px auto;
+    height: 130px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 112px;
+    margin: 0 auto;
+    margin-top: 20px;
+    gap: 18px;
+}
+.btns .reset{
+    font-size: 19px;
+    font-weight: 500;
+    padding: 9px 16px;
+    min-width: 190px;
+    min-height: 20px;
+    background: transparent;
+    color: #222;
+    border: 2px solid #222;
+    border-radius: 5px;
+    letter-spacing: 0.7px;
+    cursor: pointer;
+}
+.btns button{
+    font-size: 19px;
+    padding: 9px 18px;
+    min-width: 190px;
+    min-height: 20px;
+    background: #222;
+    color: #fff;
+    border: 2px solid #222;
+    border-radius: 5px;
+    letter-spacing: 0.7px;
+    cursor: pointer;
+}

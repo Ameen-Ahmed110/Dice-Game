@@ -1,0 +1,13 @@
+.totalScore p{
+font-size: 24px;
+font-weight: 500;
+margin-top: 15px;
+
+}
+
+.totalScore h1{
+    font-size: 6rem;
+    width: 62px;
+    height: 95px;
+    cursor: alias;
+}

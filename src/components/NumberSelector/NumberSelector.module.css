@@ -1,0 +1,48 @@
+.container {
+  position: relative;
+  height: 126px;
+}
+
+.error{
+  position: absolute;
+  right: 0;
+  top: -20px;
+  color: red;
+  font-weight: 500;
+}
+.mainBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.mainBox main {
+  height: 72px;
+  width: 72px;
+  border: 1px solid #222;
+  place-items: center;
+  display: grid;
+  cursor: pointer;
+}
+.selected {
+  background-color: black;
+  color: #fff;
+}
+
+.notSelected {
+  background-color: white;
+  color: #222;
+}
+.mainBox main h1 {
+  font-size: 2.1rem;
+}
+
+.container p {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
